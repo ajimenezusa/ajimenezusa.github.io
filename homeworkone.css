@@ -2,56 +2,76 @@ body {
 	padding: 0px;
 	margin: 0px;
 	font-size: 18px;
-	background: #efeee7;
+	background: #dacb14;
 	color: #333;
-	line-height: 150%;
+	
 }
 header, footer, nav {
 	background: #333;
 
 }
-nav {
-}
+p { 
+color: #5f0a0a;
+
+ }
 h1, nav {
-	color: white;
+	color: #422d2d;
 	text-align: center;
 	margin: 0px;
 	margin-bottom: 1px;
 	padding: 20px 0;
 	font-size: 28px;
+	background-color: #5c628c;
+	
 }
 h2 {
+	text-align: center;
 	font-size: 24px;
+	border-style: solid;
+	border-color: blue;
+	border-width: 10px
+
+}
+h3 {
+	font-size: 24px;
+	border-style: solid;
+	border-width: 10px;	
+	border-color: blue;
+}
+h4 {
+	color: black;
+
 }
 a {
-	color: red;
+	color: #5f0a0a;
+}
+a:hover {
+    color: red;
+    background-color: black;
 }
 .container {
 	width: 1024px;
 	margin: 0 auto;
 }
-section{ 
-border-style: solid
-border-color: red; }
 
 
-#main-bio,
-#contact-info,
-#bio-image 
-}
-}
-
-#main-bio {
+.section1 {
 	width: 70%;
 	float: left;
-	border: solid;
+	border-style: solid;
 	border-color: red;
+	border-right: 25%;
+	background-color: #c56262;
+	margin-left: -163px;
 }
 
-#contact-info {
-	width: 30%;
+.section2 {
+	width: 44%;
 	float: right;
-	margin-top:-200px;
+	background-color: #c56262;
+	border-style: solid;
+	border-color: darkgreen;
+	margin-right: 7px;
 }
 
 #bioimage {
@@ -65,5 +85,16 @@ footer{
 	padding: 20px 0;
 	margin-top: 50%;
 	margin-bottom: 0;
-	color: white;
+	background: #5c628c;
+}
+.soccer{
+	color: #151414;
+	background: #c56262;
+	width: 45%;
+	text-align: center;
+	float: right;
+	border-style: solid;
+	border-color: yellow;
+
+
 }
